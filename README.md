@@ -6,11 +6,11 @@
 
 **Your Minecraft Java server, on your PC. Drop in a modpack, press start, invite your friends.**
 
-[![Release](https://img.shields.io/github/v/release/LvisXVI/minecraft-host?style=flat-square&color=6fe38a&label=release)](https://github.com/LvisXVI/minecraft-host/releases/latest)
-[![Windows](https://img.shields.io/badge/Windows-portable-15263b?style=flat-square&logo=windows)](https://github.com/LvisXVI/minecraft-host/releases/latest)
+[![Release](https://img.shields.io/github/v/release/cvvluis/minecraft-host?style=flat-square&color=6fe38a&label=release)](https://github.com/cvvluis/minecraft-host/releases/latest)
+[![Windows](https://img.shields.io/badge/Windows-portable-15263b?style=flat-square&logo=windows)](https://github.com/cvvluis/minecraft-host/releases/latest)
 [![Python](https://img.shields.io/badge/Python-standard%20library%20only-15263b?style=flat-square&logo=python&logoColor=white)](app.py)
 
-[🌐 Website](https://lvisxvi.github.io/minecraft-host/) · [⬇️ Download portable](https://github.com/LvisXVI/minecraft-host/releases/latest) · [🧩 Modspire](https://lvisxvi.github.io/modspire/) · [🛠️ Mod Studio](https://lvisxvi.github.io/minecraft-mod-studio/)
+[🌐 Website](https://cvvluis.github.io/minecraft-host/) · [⬇️ Download portable](https://github.com/cvvluis/minecraft-host/releases/latest) · [🧩 Modspire](https://cvvluis.github.io/modspire/) · [🛠️ Mod Studio](https://cvvluis.github.io/minecraft-mod-studio/)
 
 </div>
 
@@ -39,7 +39,7 @@ Minecraft Host is a local server manager for **Minecraft Java Edition on Windows
 
 ## 🚀 Getting started
 
-1. Download the **portable ZIP** from [Releases](https://github.com/LvisXVI/minecraft-host/releases/latest) and unzip it.
+1. Download the **portable ZIP** from [Releases](https://github.com/cvvluis/minecraft-host/releases/latest) and unzip it.
 2. Run **`MinecraftHost.exe`** from the portable package (keep its `_internal` folder) or the single **`MinecraftHost-Standalone.exe`** – no Python needed. The dashboard opens at `http://127.0.0.1:18765` and is only reachable from this PC.
 3. Import a modpack or create a new server, then set RAM and port. Leave the Java field blank for automatic selection and download.
 4. Read the [Minecraft EULA](https://www.minecraft.net/eula), accept it in the app, save and start the server.
@@ -63,7 +63,7 @@ The **MC Host** app has two modes – switch any time under *Verbindung*:
 
 ### Remote control setup
 
-1. Download `MCHost-Remote-*.apk` from the [Android release](https://github.com/LvisXVI/minecraft-host/releases?q=android) and install it (allow installs from your browser once).
+1. Download `MCHost-Remote-*.apk` from the [Android release](https://github.com/cvvluis/minecraft-host/releases?q=android) and install it (allow installs from your browser once).
 2. In Minecraft Host 1.2.0+, click **📱 Handy** in the top bar and turn on **Fernsteuerung erlauben**. The dialog shows the PC's addresses and a pairing code.
 3. Enter address and code in the app. On the home Wi-Fi the LAN address works; **away from home** install [Tailscale](https://tailscale.com/download) on PC and phone with the same account and use the `100.x` address.
 

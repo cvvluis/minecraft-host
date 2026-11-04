@@ -13,7 +13,7 @@ import updater  # noqa: E402
 
 
 def release(tag, assets=("MinecraftHost-Portable-Windows.zip", "SHA256SUMS.txt")):
-    base = "https://github.com/LvisXVI/minecraft-host/releases/download/" + tag + "/"
+    base = "https://github.com/cvvluis/minecraft-host/releases/download/" + tag + "/"
     return {"tag_name": tag, "body": "notes", "html_url": "page", "assets": [{"name": n, "browser_download_url": base + n} for n in assets]}
 
 

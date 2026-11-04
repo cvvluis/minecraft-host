@@ -22,7 +22,7 @@ from urllib.parse import urlparse
 from urllib.request import Request, urlopen
 
 APP_VERSION = "1.2.6"
-REPO = "LvisXVI/minecraft-host"
+REPO = "cvvluis/minecraft-host"
 RELEASE_API = f"https://api.github.com/repos/{REPO}/releases/latest"
 ASSET_NAME = "MinecraftHost-Portable-Windows.zip"
 SUMS_NAME = "SHA256SUMS.txt"

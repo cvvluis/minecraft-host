@@ -835,7 +835,7 @@ final class LocalHost {
         HttpURLConnection c = (HttpURLConnection) new URL(url).openConnection();
         c.setConnectTimeout(15000);
         c.setReadTimeout(60000);
-        c.setRequestProperty("User-Agent", "MCHost-Android (github.com/LvisXVI/minecraft-host)");
+        c.setRequestProperty("User-Agent", "MCHost-Android (github.com/cvvluis/minecraft-host)");
         if (c.getResponseCode() >= 400) { int code = c.getResponseCode(); c.disconnect(); throw new IOException("Server antwortet mit " + code + "."); }
         return c;
     }

@@ -388,7 +388,7 @@ screens.settings = {
       <div class="card"><span class="label">${isLocal() ? 'App' : 'Minecraft Host'}</span><p class="muted" id="st-version">–</p></div>
       <div class="stack">${isLocal() ? '<button class="btn block" id="st-pc" type="button">Zum PC wechseln</button>' : `<button class="btn block" id="st-change" type="button">Anderen PC koppeln</button>${canHostHere() ? '<button class="btn block" id="st-local" type="button">Auf diesem Handy hosten</button>' : ''}`}</div>
       ${isLocal() ? '<p class="hint" style="text-align:center;margin-top:12px">Server auf dem Handy laufen weiter, wenn du zum PC wechselst.</p>' : ''}
-      <p class="hint" style="text-align:center;margin-top:18px">MC Host · Server auf dem Handy oder am PC<br>Quellcode: github.com/LvisXVI/minecraft-host</p>`;
+      <p class="hint" style="text-align:center;margin-top:18px">MC Host · Server auf dem Handy oder am PC<br>Quellcode: github.com/cvvluis/minecraft-host</p>`;
     const change = $('#st-change', el); if (change) change.onclick = () => show('pair');
     const toLocal = $('#st-local', el); if (toLocal) toLocal.onclick = useLocal;
     const toPc = $('#st-pc', el); if (toPc) toPc.onclick = () => { if (conn.base && conn.code) { conn = { ...conn, mode: 'pc' }; store.set('mode', 'pc'); state = null; stack.length = 0; refresh(); show('servers'); } else show('pair'); };
